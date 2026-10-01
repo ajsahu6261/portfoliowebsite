@@ -4,7 +4,7 @@ import avatarImg from "../assets/ajay.png"
 import { useEffect, useRef } from 'react';
 import resume from "../assets/resume.pdf"
 
-import Typed from 'Typed.js'
+import Typed from 'typed.js'
 const Home = () => {
   const [showMore, setShowMore] = useState(false);
   const typedElement = useRef(null);
