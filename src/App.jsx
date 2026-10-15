@@ -6,6 +6,8 @@ import Skills from "./pages/Skills";
 import Experience from "./pages/Experience";
 import Projects from "../src/Projects/Projects";
 import Footer from "./pages/Footer";
+import Certificate from "./Certificate/Certificate";
+
 
 
 export default function App() {
@@ -16,9 +18,10 @@ export default function App() {
       <Navbar />
        <Home /> 
       <About />
-      <Contact />
       <Skills />
+      <Certificate />
       <Experience />
+      <Contact />
       <Projects />
       <Footer />
 
